@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Cardio-Referent
-Plugin URI: https://github.com/bluecyborg/cardioPlugin
+Plugin Name: Cardio-Référent
+Plugin URI: https://github.com/bluecyborg/cardioReferent
 Description: Ce plugin permet de créer un référent à un club ainsi que son club !
-Version : 1.1
+Version : 1.0
 Author URI: https://github.com/bluecyborg/
 Author: Mathys
 */

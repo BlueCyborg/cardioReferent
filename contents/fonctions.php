@@ -8,10 +8,10 @@ function add_Admin_Link()
 {
     add_menu_page(
         __('Cardio-Management', 'textdomain'),
-        'Cardio Référent',
+        'Cardio-Référent',
         'manage_options',
         'administration',
-        'cardioPlugin_Page_Principale',
+        'cardioReferentMain',
         'dashicons-universal-access-alt'
     );
 
@@ -21,7 +21,7 @@ function add_Admin_Link()
         'Créer Club',
         'manage_options',
         'administration&option=creerClub',
-        'cardioPlugin_Page_Principale'
+        'cardioReferentMain'
     );
 
     add_submenu_page(
@@ -30,7 +30,7 @@ function add_Admin_Link()
         'Gestion Club',
         'manage_options',
         'administration&option=gererClub',
-        'cardioPlugin_Page_Principale'
+        'cardioReferentMain'
     );
     add_submenu_page(
         'administration',
@@ -38,7 +38,7 @@ function add_Admin_Link()
         'Supprimer Club',
         'manage_options',
         'administration&option=supprimerClub',
-        'cardioPlugin_Page_Principale'
+        'cardioReferentMain'
     );
     add_submenu_page(
         'administration',
@@ -46,7 +46,7 @@ function add_Admin_Link()
         'Créer Référent',
         'manage_options',
         'administration&option=creerReferent',
-        'cardioPlugin_Page_Principale'
+        'cardioReferentMain'
     );
 
     add_submenu_page(
@@ -55,7 +55,7 @@ function add_Admin_Link()
         'Gérer Référent',
         'manage_options',
         'administration&option=gererReferent',
-        'cardioPlugin_Page_Principale'
+        'cardioReferentMain'
     );
     add_submenu_page(
         'administration',
@@ -63,11 +63,11 @@ function add_Admin_Link()
         'Supprimer Référent',
         'manage_options',
         'administration&option=supprimerReferent',
-        'cardioPlugin_Page_Principale'
+        'cardioReferentMain'
     );
 }
 
-function cardioPlugin_Page_Principale()
+function cardioReferentMain()
 {
     if (!isset($_GET['option'])) {
         //L'on inclu la page d'accueil par défaut

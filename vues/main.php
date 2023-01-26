@@ -1,4 +1,4 @@
-<h1>Cardio-Plugin gestion du référent :</h1>
+<h1>Cardio-Referent : plugin de gestion du référent et de son club :</h1>
 <br>
 <h4>Pour bien utiliser ce plugin je dois :</h4>
 <ul>
