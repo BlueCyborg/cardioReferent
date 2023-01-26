@@ -8,10 +8,11 @@ function add_Admin_Link()
 {
     add_menu_page(
         __('Cardio-Management', 'textdomain'),
-        'Cardio Referent',
+        'Cardio Référent',
         'manage_options',
         'administration',
-        'cardioPlugin_Page_Principale'
+        'cardioPlugin_Page_Principale',
+        'dashicons-universal-access-alt'
     );
 
     add_submenu_page(
