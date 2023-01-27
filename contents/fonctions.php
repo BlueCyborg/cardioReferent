@@ -10,59 +10,59 @@ function add_Admin_Link()
         __('Cardio-Management', 'textdomain'),
         'Cardio-Référent',
         'manage_options',
-        'administration',
+        'gestionReferent',
         'cardioReferentMain',
         'dashicons-universal-access-alt'
     );
 
     add_submenu_page(
-        'administration',
+        'gestionReferent',
         'Création du Club',
         'Créer Club',
         'manage_options',
-        'administration&option=creerClub',
+        'gestionReferent&option=creerClub',
         'cardioReferentMain'
     );
 
     add_submenu_page(
-        'administration',
+        'gestionReferent',
         'Gestion du Club',
         'Gestion Club',
         'manage_options',
-        'administration&option=gererClub',
+        'gestionReferent&option=gererClub',
         'cardioReferentMain'
     );
     add_submenu_page(
-        'administration',
+        'gestionReferent',
         'Suppression du Club',
         'Supprimer Club',
         'manage_options',
-        'administration&option=supprimerClub',
+        'gestionReferent&option=supprimerClub',
         'cardioReferentMain'
     );
     add_submenu_page(
-        'administration',
+        'gestionReferent',
         'Création du Référent',
         'Créer Référent',
         'manage_options',
-        'administration&option=creerReferent',
+        'gestionReferent&option=creerReferent',
         'cardioReferentMain'
     );
 
     add_submenu_page(
-        'administration',
+        'gestionReferent',
         'Gestion du Référent',
         'Gérer Référent',
         'manage_options',
-        'administration&option=gererReferent',
+        'gestionReferent&option=gererReferent',
         'cardioReferentMain'
     );
     add_submenu_page(
-        'administration',
+        'gestionReferent',
         'Suppression du Référent',
         'Supprimer Référent',
         'manage_options',
-        'administration&option=supprimerReferent',
+        'gestionReferent&option=supprimerReferent',
         'cardioReferentMain'
     );
 }

@@ -1,7 +1,7 @@
 <h1>Cardio-Plugin gestion d'un club existant :</h1>
 <br>
 <?php $clubs = getClubDatabase(); ?>
-<form action="https://cardio-training.eu/wp-admin/admin.php?page=administration&option=modifierClub" method="POST">
+<form action="https://cardio-training.eu/wp-admin/admin.php?page=gestionReferent&option=modifierClub" method="POST">
     <select name="id_club">
         <?php foreach ($clubs as $club) { ?>
             <option value="<?= $club->id ?>"><?= $club->nom ?></option>

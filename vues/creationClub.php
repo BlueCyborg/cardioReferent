@@ -1,6 +1,6 @@
 <h1>Cardio-Plugin création d'un nouveau club :</h1>
 <br>
-<form action="https://cardio-training.eu/wp-admin/admin.php?page=administration&option=creerClub" method="POST">
+<form action="https://cardio-training.eu/wp-admin/admin.php?page=gestionReferent&option=creerClub" method="POST">
     <label for="nom_club">Entrez le nom du club : </label>
     <input type="text" maxlength="50" id="nom_club" name="nom_club" placeholder="Nom du club" required>
     <br><br>

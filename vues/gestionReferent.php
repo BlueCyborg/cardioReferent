@@ -3,7 +3,7 @@
 <?php
 $referents = getAllReferent(); ?>
 <p>Référent à modifier :</p>
-<form action="https://cardio-training.eu/wp-admin/admin.php?page=administration&option=modifierReferent" method="POST">
+<form action="https://cardio-training.eu/wp-admin/admin.php?page=gestionReferent&option=modifierReferent" method="POST">
     <select name="id_referent">
         <?php foreach ($referents as $unReferent) { ?>
             <option value='<?= $unReferent->data->ID ?>'>

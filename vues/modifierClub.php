@@ -1,6 +1,6 @@
 <h1>Cardio-Plugin modification d'un référent :</h1>
 <br>
-<form action="https://cardio-training.eu/wp-admin/admin.php?page=administration&option=modifierClub" method="POST">
+<form action="https://cardio-training.eu/wp-admin/admin.php?page=gestionReferent&option=modifierClub" method="POST">
     <?php
     $club = getUnClub($_POST["id_club"]);
     $referents = getAllReferent();

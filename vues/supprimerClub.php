@@ -1,7 +1,7 @@
 <h1>Cardio-Plugin suppression d'un club :</h1>
 <br>
 <?php $clubs = getClubDatabase(); ?>
-<form action="https://cardio-training.eu/wp-admin/admin.php?page=administration&option=supprimerClub" method="POST">
+<form action="https://cardio-training.eu/wp-admin/admin.php?page=gestionReferent&option=supprimerClub" method="POST">
     <p><strong>Séléction du club :</strong><br>
         <select name="id_club">
             <?php

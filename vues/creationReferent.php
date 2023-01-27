@@ -6,7 +6,7 @@ function createPass($longueur_pass)
 ?>
 <h1>Cardio-Plugin création d'un nouveau référent :</h1>
 <br>
-<form action="https://cardio-training.eu/wp-admin/admin.php?page=administration&option=creerReferent" method="POST">
+<form action="https://cardio-training.eu/wp-admin/admin.php?page=gestionReferent&option=creerReferent" method="POST">
     <label for="nom_referent">Entrez le pseudo du référent : </label>
     <input type="text" maxlength="50" id="nom_referent" name="nom_referent" placeholder="Pseudo" required>
     <br><br>
